@@ -1,9 +1,8 @@
 
 def square_array(array)
-new_array =[]
-count = 0
-while count < array.length do
-  new_array << array[count] ** 2
-  end
-  new_array
-end
+    new_array = []
+    count = 1 
+    array.each {|count| new_array << count ** 2 }
+    count += 1 
+    return new_array 
+  end 
